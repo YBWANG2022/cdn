@@ -27,10 +27,10 @@ function Retrieve() {
             function print(){
                 $("#table-data").append(
                     '<tr>' +
-                        '<td">' + nominee + '</td>' +
-                        '<td">' + awards + '</td>' +
-                        '<td">' + ctext + '</td>' +
-                        '<td">' + name + '</td>' +
+                        '<td class="w-15">' + nominee + '</td>' +
+                        '<td class="w-15">' + awards + '</td>' +
+                        '<td class="w-10">' + ctext + '</td>' +
+                        '<td class="w-15">' + name + '</td>' +
                     '</tr>'
                 );
             };

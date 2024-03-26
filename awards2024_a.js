@@ -4,7 +4,7 @@ $(function () {
 
 function Retrieve() {
     var dataArray = [];
-    var URL = 'https://script.google.com/macros/s/AKfycbzGb9cTEOgcfUGvVJmgRxyoJvNImsNYUbKeTVUeVQRnii5nhfdVf0oFvQW_RaJIh9Dt/exec';
+    var URL = 'https://script.google.com/macros/s/AKfycbz7PmSqZMdQWhbDu3koA7lSiYsy2n3avmiHaRDfdIOnk7LcFNRil_0IMrEJiQca11OO/exec';
     $.ajax({
         url: URL,
         type: 'POST',

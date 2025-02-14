@@ -35,7 +35,7 @@ var xmlhttp;
                   }
 
           }
-    var url="https://script.google.com/a/macros/hondao.org.tw/s/AKfycbwSLQyWuihI4oF8az7KbpgeTLIMcsKTh-GuF9o6Gw9j7iUYmyDefS5Y4WDagnnvA5YL1A/exec";
+    var url="https://script.google.com/a/macros/hondao.org.tw/s/AKfycbxUB8KrXba0LDOYuy2Ob6rjwc7JCzFmg00QUZ4iTwc4lsrHrYqBt3npnvd2HqlHe42xHw/exec";
         xmlhttp.open("get",url+"?nominee="+encodeURIComponent(str),true);
         xmlhttp.send();
 }
